@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if pgrep -x hyprsunset >/dev/null 2>&1; then
+    echo "🌅 Sunset’s already on—killing it!"
+    pkill -x hyprsunset
+else
+    echo "☀️ Let there be sunset!"
+    hyprsunset -t 2800 &
+fi

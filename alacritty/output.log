@@ -1,0 +1,86 @@
+[2025-07-16 16:30:31.578] [info] Using configuration file /home/josiah/.config/waybar/config.jsonc
+[2025-07-16 16:30:31.579] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2025-07-16 16:30:31.579] [info] Using CSS file /home/josiah/.config/waybar/style.css
+[2025-07-16 16:30:31.584] [info] Hyprland IPC starting
+[2025-07-16 16:30:31.584] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:30:31.586] [warning] 'swap-icon-label' must be a bool.
+[2025-07-16 16:30:31.589] [warning] No batteries.
+Fontconfig warning: using without calling FcInit()
+/usr/bin/python3: can't open file '/full/path/to/mediaplayer.py': [Errno 2] No such file or directory
+[2025-07-16 16:30:31.601] [error] spotify stopped unexpectedly, is it endless?
+[2025-07-16 16:30:31.602] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:30:31.604] [warning] 'swap-icon-label' must be a bool.
+[2025-07-16 16:30:31.605] [warning] No batteries.
+/usr/bin/python3: can't open file '/full/path/to/mediaplayer.py': [Errno 2] No such file or directory
+[2025-07-16 16:30:31.622] [error] spotify stopped unexpectedly, is it endless?
+[2025-07-16 16:30:31.622] [info] Bar configured (width: 1920, height: 40) for output: DP-2
+[2025-07-16 16:30:31.622] [info] Bar configured (width: 2400, height: 40) for output: HDMI-A-1
+[2025-07-16 16:30:31.624] [info] Bar configured (width: 2400, height: 40) for output: HDMI-A-1
+[2025-07-16 16:31:15.232] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-07-16 16:31:15.260] [info] Reloading...
+[2025-07-16 16:31:15.317] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:31:15.318] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-07-16 16:31:15.318] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:31:15.326] [info] Using configuration file /home/josiah/.config/waybar/config.jsonc
+[2025-07-16 16:31:15.326] [info] Using CSS file /home/josiah/.config/waybar/style.css
+[2025-07-16 16:31:15.346] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:31:15.347] [warning] 'swap-icon-label' must be a bool.
+[2025-07-16 16:31:15.349] [warning] No batteries.
+[2025-07-16 16:31:15.353] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:31:15.355] [warning] 'swap-icon-label' must be a bool.
+[2025-07-16 16:31:15.358] [warning] No batteries.
+/usr/bin/python3: can't open file '/full/path/to/mediaplayer.py': [Errno 2] No such file or directory
+[2025-07-16 16:31:15.364] [error] spotify stopped unexpectedly, is it endless?
+/usr/bin/python3: can't open file '/full/path/to/mediaplayer.py': [Errno 2] No such file or directory
+[2025-07-16 16:31:15.371] [info] Bar configured (width: 1920, height: 40) for output: DP-2
+[2025-07-16 16:31:15.371] [info] Bar configured (width: 2400, height: 40) for output: HDMI-A-1
+[2025-07-16 16:31:15.372] [error] spotify stopped unexpectedly, is it endless?
+[2025-07-16 16:31:15.373] [info] Bar configured (width: 2400, height: 40) for output: HDMI-A-1
+[2025-07-16 16:32:11.581] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-07-16 16:32:11.608] [info] Reloading...
+[2025-07-16 16:32:11.639] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:32:11.639] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-07-16 16:32:11.687] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:32:11.695] [info] Using configuration file /home/josiah/.config/waybar/config.jsonc
+[2025-07-16 16:32:11.695] [info] Using CSS file /home/josiah/.config/waybar/style.css
+[2025-07-16 16:32:11.757] [info] Reloading...
+[2025-07-16 16:32:11.757] [info] Using configuration file /home/josiah/.config/waybar/config.jsonc
+[2025-07-16 16:32:11.757] [info] Using CSS file /home/josiah/.config/waybar/style.css
+[2025-07-16 16:32:11.840] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:32:11.842] [warning] 'swap-icon-label' must be a bool.
+[2025-07-16 16:32:11.844] [warning] No batteries.
+[2025-07-16 16:32:11.847] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-07-16 16:32:11.850] [warning] 'swap-icon-label' must be a bool.
+[2025-07-16 16:32:11.852] [warning] No batteries.
+[2025-07-16 16:32:11.870] [info] Loading persistent workspaces from Hyprland workspace rules
+Traceback (most recent call last):
+[2025-07-16 16:32:11.872] [warning] 'swap-icon-label' must be a bool.
+  File "/home/josiah/.local/bin/mediaplayer.py", line 2, in <module>
+    import gi
+[2025-07-16 16:32:11.874] [warning] No batteries.
+ModuleNotFoundError: No module named 'gi'
+[2025-07-16 16:32:11.878] [info] Loading persistent workspaces from Hyprland workspace rules
+Traceback (most recent call last):
+[2025-07-16 16:32:11.880] [error] spotify stopped unexpectedly, is it endless?
+[2025-07-16 16:32:11.880] [warning] 'swap-icon-label' must be a bool.
+[2025-07-16 16:32:11.883] [warning] No batteries.
+  File "/home/josiah/.local/bin/mediaplayer.py", line 2, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+[2025-07-16 16:32:11.895] [error] spotify stopped unexpectedly, is it endless?
+Traceback (most recent call last):
+  File "/home/josiah/.local/bin/mediaplayer.py", line 2, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+[2025-07-16 16:32:11.907] [info] Bar configured (width: 1920, height: 40) for output: DP-2
+[2025-07-16 16:32:11.907] [info] Bar configured (width: 2400, height: 40) for output: HDMI-A-1
+[2025-07-16 16:32:11.907] [info] Bar configured (width: 1920, height: 40) for output: DP-2
+[2025-07-16 16:32:11.907] [info] Bar configured (width: 2400, height: 40) for output: HDMI-A-1
+[2025-07-16 16:32:11.910] [info] Bar configured (width: 2400, height: 40) for output: HDMI-A-1
+[2025-07-16 16:32:11.910] [info] Bar configured (width: 2400, height: 40) for output: HDMI-A-1
+[2025-07-16 16:32:11.911] [error] spotify stopped unexpectedly, is it endless?
+Traceback (most recent call last):
+  File "/home/josiah/.local/bin/mediaplayer.py", line 2, in <module>
+    import gi
+ModuleNotFoundError: No module named 'gi'
+[2025-07-16 16:32:11.921] [error] spotify stopped unexpectedly, is it endless?

@@ -1,0 +1,27 @@
+[pyprland]
+plugins = [
+  "scratchpads"
+]
+
+[scratchpads.term]
+animation = "fromTop"
+command = "alacritty --class alacritty-dropterm"
+class = "alacritty-dropterm"
+position = "17% 6%"
+size = "65% 60%"
+offset = "200%"
+
+[scratchpads.mixer]
+animation = "fromBottom"
+command = "alacritty --class alacritty-pulsemixer -e pulsemixer"
+class = "alacritty-pulsemixer"
+size = "50% 20%"
+offset = "200%"
+
+[scratchpads.taskbar]
+animation = "fromRight"
+command = "alacritty --class alacritty-taskbar -e btop"
+class = "alacritty-taskbar"
+size = "40% 80%"
+offset = "200%"
+

@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# Dependencies:
+#  • swww  (for Wayland wallpaper)
+#  • wal   (pywal)
+
+wall_dir=~/wallpapers
+
+if [ -z "$1" ]; then
+  wall="$(find "$wall_dir" -type f \( -iname '*.jpg' -o -iname '*.png' \) | shuf -n1)"
+else
+  wall="$1"
+fi
+
+# set wallpaper everywhere
+swww img "$wall" >/dev/null 2>&1
+wal -c >/dev/null 2>&1
+wal -i "$wall" --contrast 5.0 >/dev/null 2>&1
+
+# update Waybar colors
+ln -sf ~/.cache/wal/colors.css ~/.config/waybar/colors-wal.css
+
+# restart Waybar
+if pgrep -x waybar >/dev/null; then
+  pkill waybar
+fi
+nohup waybar &> /dev/null & disown
+
+nvim --headless "+colorscheme pywal16" +qa

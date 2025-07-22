@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+PLAYER="${PLAYER:-ncspot}"
+icon=""
+
+# grab “Artist – Title”; if empty (no song loaded) fall back to “Nothing playing”
+meta=$(playerctl -p "$PLAYER" metadata --format "{{ artist }} - {{ title }}" 2>/dev/null)
+[[ -z "$meta" || "$meta" == " - " ]] && meta="Nothing playing"
+
+# escape any quotes just in case
+meta=${meta//\"/\\\"}
+
+# output for Waybar’s {text}
+echo "$icon   $meta"
