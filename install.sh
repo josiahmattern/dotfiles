@@ -110,10 +110,10 @@ pacman -S --noconfirm --needed \
   swww hyprpaper hyprlock \
   mako wofi \
   xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-hyprland \
-  wlroots xorg-xwayland \
+  xorg-xwayland \
   alacritty kitty \
   pipewire wireplumber pipewire-alsa pipewire-pulse pipewire-jack \
-  grim slurp wl-clipboard \
+  wl-clipboard \
   brightnessctl playerctl \
   ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-fira-code
 
